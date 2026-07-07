@@ -1,8 +1,8 @@
 const Guidelines = () => {
   return (
     <>
-      <section className="space-y-8">
-        <h6 className="tracking-widest text-[10px] text-blue-900 font-normal">
+      <section className="space-y-12">
+        <h6 className="tracking-widest text-blue-900 font-normal">
           RECORDING GUIDELINES
         </h6>
         <div className="space-y-4">
@@ -21,7 +21,7 @@ const Guidelines = () => {
               "Name the layers properly [main, overlap, harmo, adlib]. Roughly time the vocals to the instrumental, and DO NOT separate it per lines/takes",
             ],
             [
-              "Include the instrumental",
+              "Instrumental",
               "Send the exact instrumental you recorded to. Do not send a different arrangement.",
             ],
             [
@@ -30,10 +30,10 @@ const Guidelines = () => {
             ],
           ].map(([title, body]) => (
             <div key={title} className="grid grid-cols-[140px_1fr] gap-6">
-              <p className="text-xs  text-gray-400 pt-0.5 leading-relaxed">
+              <p className="text-sm  text-gray-400 pt-0.5 leading-relaxed">
                 {title}
               </p>
-              <p className="text-xs  text-mist-600 leading-relaxed">{body}</p>
+              <p className="text-sm  text-mist-600 leading-relaxed">{body}</p>
             </div>
           ))}
         </div>

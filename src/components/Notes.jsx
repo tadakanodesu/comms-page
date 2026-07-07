@@ -1,8 +1,8 @@
 const Notes = () => {
   return (
     <>
-      <section className="space-y-8">
-        <h6 className="tracking-widest text-[10px] text-blue-900 font-normal">
+      <section className="space-y-12">
+        <h6 className="tracking-widest text-blue-900 font-normal">
           COMMISSION NOTES
         </h6>
         <div className="space-y-4">
@@ -13,11 +13,11 @@ const Notes = () => {
             ],
             [
               "Modifications",
-              "I DO NOT allow any kinds of modifications to my works, whether in progress, or the final product.",
+              "I Don't allow any modifications to my works, whether in progress, or the final product.",
             ],
             [
               "Commercial use",
-              "The prices already include commercial uses. Credit me as Kano with the link to my yt and/or twitter.",
+              "The prices include commercial uses. Credit me as Kano with my yt and/or twitter link.",
             ],
             [
               "Revisions",
@@ -30,10 +30,10 @@ const Notes = () => {
             ],
           ].map(([title, body]) => (
             <div key={title} className="grid grid-cols-[140px_1fr] gap-6">
-              <p className="text-xs text-gray-400 pt-0.5 leading-relaxed">
+              <p className="text-sm text-gray-400 pt-0.5 leading-relaxed">
                 {title}
               </p>
-              <p className="text-xs text-mist-600 leading-relaxed">{body}</p>
+              <p className="text-sm text-mist-600 leading-relaxed">{body}</p>
             </div>
           ))}
         </div>

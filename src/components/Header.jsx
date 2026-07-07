@@ -3,12 +3,12 @@ import { FiYoutube } from "react-icons/fi";
 const Header = () => {
   return (
     <>
-      <header className="space-y-10">
-        <h6 className="tracking-widest text-[10px] text-blue-900 font-normal">
+      <header className="space-y-12">
+        <h6 className="tracking-widest text-blue-900 font-normal">
           COMMISSION • OPEN
         </h6>
-        <div className="text-4xl">Vocal Mix & Mastering</div>
-        <div className="-mt-5= text-xs tracking-wider  text-gray-400">
+        <div className="text-5xl">Vocal Mix & Mastering</div>
+        <div className="-mt-5= text-sm tracking-wider leading-normal text-gray-400">
           Hello im{" "}
           <a
             href="https://x.com/tadakanodesu"
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <a
           href="https://www.youtube.com/playlist?list=PLmmQ1I8l2bS4_W7bOjeMQOrjE1LqB24Ce"
-          className="w-22.5 flex items-center gap-2 text-xs text-blue-800 hover:text-gray-500 hover:underline underline-offset-4 transition-colors"
+          className="w-25 flex items-center gap-2 text-sm text-blue-800 hover:text-gray-500 hover:underline underline-offset-4 transition-colors"
           style={{ fontFamily: "'Geist Mono', monospace" }}
         >
           <FiYoutube />
