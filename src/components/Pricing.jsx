@@ -18,7 +18,7 @@ const Pricing = () => {
             USD | IDR
           </button>
         </div>
-        <div className="grid grid-cols-[2fr_2fr_1fr] mt-12 gap-4 pb-2 border-b-2 border-gray-400">
+        <div className="grid grid-cols-[4fr_1fr_1fr] mt-12 gap-4 pb-2 border-b-2 border-gray-400">
           {priceHead.map((h) => (
             <p
               key={h}
@@ -31,28 +31,33 @@ const Pricing = () => {
         </div>
 
         <div
-          className="grid grid-cols-[2fr_2fr_1fr] gap-8 pb-10 border-b border-gray-300 text-[14px] tracking-wider text-gray-800"
+          className="grid grid-cols-[4fr_1fr_1fr] gap-8 pb-10 border-b border-gray-300 text-[14px] tracking-wider text-gray-800"
           style={{ fontFamily: "Inter" }}
         >
           {priceIndo.map((value, index) => (
             <Fragment key={index}>
-              <p className="text-left">{value.service}</p>
-              <p className="text-center text-gray-500">{value.include}</p>
-              <p className="text-center ml-20">
+              <div className="flex flex-col">
+                <p className="text-left">{value.service}</p>
+                <p className="text-left text-gray-400">{value.include}</p>
+              </div>
+              <p className="pl-3 text-center text-gray-500">
                 {currency === "USD" ? value.priceUsd : value.priceIdr}
+              </p>
+              <p className="text-right text-gray-500">
+                {currency === "USD" ? value.addUsd : value.addIdr}
               </p>
             </Fragment>
           ))}
         </div>
 
         <ul className="list-disc ml-5 mt-12 text-sm text-gray-500 leading-relaxed space-y-1">
-          <li>Additional vocalist: [Full Package] [Mix n master only] </li>
           <li>
-            5 track limit per vocalist, additional track will be charge{" "}
-            <span className="text-blue-900">+$5</span> per track.
+            6 track limit per vocalist [ excluding overlap ], additional track
+            will be charge <span className="text-blue-900">+$5</span> per track.
           </li>
           <li>
-            How you distribute the track count between vocalists is up to you.
+            For more than 1 singers, how you distribute the track count between
+            vocalists is up to you.
           </li>
           <li>
             Turnover time is from{" "}

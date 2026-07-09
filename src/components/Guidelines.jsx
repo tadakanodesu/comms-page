@@ -9,7 +9,7 @@ const Guidelines = () => {
           {[
             [
               "Send RAW vocals",
-              "DO NOT put ANY KIND of effects on your vocals, i will all the processing from scratch.",
+              "DO NOT put ANY KIND of effects on your vocals, i will handle the processing.",
             ],
             ["Vocal export", "Export the vocal as .wav [ 24-bit / 44.1 kHz ]."],
             [

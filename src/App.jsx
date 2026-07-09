@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <div className="min-h-screen bg-mist-50">
+      <div className="min-h-screen flex-nowrap">
         <div className="flex flex-col">
           <div className="max-w-3xl mx-auto px-6 py-20 md:py-28 space-y-18">
             {/* HEADER */}
