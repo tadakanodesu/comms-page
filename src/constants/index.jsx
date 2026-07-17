@@ -20,9 +20,16 @@ export const priceIndo = [
   {
     service: "Tuning n Timing",
     include: "vocal tuning, and timing",
-    priceIdr: "50k/track",
+    priceIdr: "30k/track",
     priceUsd: "$5/track",
     addIdr: "-",
     addUsd: "-",
+  },
+];
+
+export const addTrack = [
+  {
+    addIdr: "20k",
+    addUsd: "5$",
   },
 ];

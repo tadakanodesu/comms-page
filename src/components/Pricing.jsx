@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { priceHead } from "../constants/";
+import { addTrack, priceHead } from "../constants/";
 import { priceIndo } from "../constants/";
 import { useState } from "react";
 
@@ -51,10 +51,16 @@ const Pricing = () => {
         </div>
 
         <ul className="list-disc ml-5 mt-12 text-sm text-gray-500 leading-relaxed space-y-1">
-          <li>
-            6 track limit per vocalist [ excluding overlap ], additional track
-            will be charge <span className="text-blue-900">+$5</span> per track.
-          </li>
+          {addTrack.map((value) => (
+            <li>
+              5 track limit per vocalist [ excluding overlap ], additional track
+              will be charge{" "}
+              <span className="text-blue-900">
+                {currency === "USD" ? value.addUsd : value.addIdr}
+              </span>{" "}
+              per track.
+            </li>
+          ))}
           <li>
             For more than 1 singers, how you distribute the track count between
             vocalists is up to you.
