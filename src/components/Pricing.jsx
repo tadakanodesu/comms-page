@@ -62,7 +62,8 @@ const Pricing = () => {
             </li>
           ))}
           <li>
-            Short / Tv-Sized commission will get 30% discount from base price
+            Short / Tv-Sized commission will get{" "}
+            <span className="font-semibold">30%</span> discount from base price
           </li>
           <li>
             For more than 1 singers, how you distribute the track count between
