@@ -18,11 +18,15 @@ const Guidelines = () => {
             ],
             [
               "Proper layering",
-              "Name the layers properly [main, overlap, harmo, adlib]. Roughly time the vocals to the instrumental, and DO NOT separate it per lines/takes",
+              "Separate and name the layers properly [ main, overlap, harmo, adlib ].",
+            ],
+            [
+              "Vocal timing",
+              "Roughly time the vocals to the instrumental, DO NOT separate it per lines/takes",
             ],
             [
               "Instrumental",
-              "Send the exact instrumental you recorded to. Do not send a different arrangement.",
+              "Send the same instrumental you recorded to. Don't send a different arrangement.",
             ],
             [
               "Reference track",

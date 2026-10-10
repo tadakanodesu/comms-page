@@ -3,24 +3,24 @@ export const priceHead = ["Service", "Base Price", "+Singers"];
 export const priceIndo = [
   {
     service: "Full Package",
-    include: "noise cleaning, vocal tuning, timing, mixing, and mastering",
+    include: "vocal tuning, timing, mixing, and mastering",
     priceIdr: "400k",
-    priceUsd: "$70",
-    addIdr: "+200k",
-    addUsd: "+$30",
+    priceUsd: "$65",
+    addIdr: "+150k",
+    addUsd: "+$25",
   },
   {
     service: "Mix n Master Only",
-    include: "noise cleaning, vocal mixing, and mastering",
+    include: "vocal mixing, and mastering",
     priceIdr: "300k",
     priceUsd: "$40",
-    addIdr: "+150k",
+    addIdr: "+100k",
     addUsd: "+$20",
   },
   {
-    service: "Tuning n Timing",
+    service: "Vocal T/T",
     include: "vocal tuning, and timing",
-    priceIdr: "30k/track",
+    priceIdr: "25k/track",
     priceUsd: "$5/track",
     addIdr: "-",
     addUsd: "-",
@@ -29,7 +29,7 @@ export const priceIndo = [
 
 export const addTrack = [
   {
-    addIdr: "20k",
+    addIdr: "25k",
     addUsd: "5$",
   },
 ];

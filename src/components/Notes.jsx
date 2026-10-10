@@ -9,24 +9,28 @@ const Notes = () => {
           {[
             [
               "Vocal work only",
-              "I only do vocal mix and master. I do not produce instrumentals or write lyrics.",
+              "I only do vocal mix and master. I don't do music production.",
             ],
             [
               "Modifications",
-              "I Don't allow any modifications to my works, whether in progress, or the final product.",
+              "I don't allow any modifications to my work, whether the wip, or the final product.",
             ],
             [
               "Commercial use",
-              "The prices include commercial uses. Credit me as Kano with my yt and/or twitter link.",
+              "DM first, extra charge from 50% to 100% of the base price.",
             ],
+            ["Credit", "Credit me as Kano with my yt and/or twitter link."],
             [
               "Revisions",
               "I have no limit for revisions as long as im capable of doing it.",
             ],
-            ["Portfolio", "Clients works will be used as my portfolio."],
+            [
+              "Portfolio",
+              "Clients works will be used as my portfolio, unless discussed otherwise.",
+            ],
             [
               "Refunds",
-              "I do not offer refunds, i will finish the commission.",
+              "I do not offer refunds, but i will finish the commission.",
             ],
           ].map(([title, body]) => (
             <div key={title} className="grid grid-cols-[140px_1fr] gap-6">
